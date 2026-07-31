@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Database
+data/raw/
+data/cleaned/
+*.db
+*.sqlite
+*.csv
+*.xlsx
+*.json
+
+# Models
+models/
+*.pkl
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Dashboard & Reports
+dashboard/
+reports/
+
+# Cache
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
