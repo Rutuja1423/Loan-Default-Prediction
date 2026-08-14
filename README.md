@@ -1,12 +1,13 @@
 # Production Grade AI Loan Default Prediction & Credit Risk Analytics System
 
-[![CI Pipeline](https://github.com/yourusername/LoanDefaultPrediction/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/LoanDefaultPrediction/actions)
+[![CI Pipeline](https://github.com/Rutuja1423/Loan-Default-Prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/Rutuja1423/Loan-Default-Prediction/actions)
 
-## Author
+## Author & Contributor
 
-| Role | Name |
-|---|---|
-| Author | Rutuja Shinde |
+| Role | Name | GitHub Account |
+|---|---|---|
+| Project Owner & Author | Rutuja Shinde | [@Rutuja1423](https://github.com/Rutuja1423) |
+| Sole Contributor | Rutuja Shinde | [@Rutuja1423](https://github.com/Rutuja1423) |
 
 ## Business Problem
 
@@ -106,8 +107,8 @@ LoanDefaultPrediction/
 
 ### 1. Installation
 ```bash
-git clone https://github.com/yourusername/LoanDefaultPrediction.git
-cd LoanDefaultPrediction
+git clone https://github.com/Rutuja1423/Loan-Default-Prediction.git
+cd "Loan Default Prediction"
 pip install -r requirements.txt
 ```
 

@@ -4,7 +4,7 @@ from pathlib import Path
 nb = nbf.v4.new_notebook()
 
 nb.cells = [
-    nbf.v4.new_markdown_cell("# Production Grade AI Loan Default Prediction & Credit Risk Analytics\n\n| Role | Name |\n|---|---|\n| **Author** | Rutuja Shinde |\n\nThis notebook demonstrates the end-to-end machine learning pipeline for predicting loan defaults, including data cleaning, feature engineering, model training with hyperparameter tuning, model calibration, and SHAP explainability. It leverages the modular codebase built for this project."),
+    nbf.v4.new_markdown_cell("# Production Grade AI Loan Default Prediction & Credit Risk Analytics\n\n| Role | Name | GitHub Account |\n|---|---|---|\n| **Author & Owner** | Rutuja Shinde | [@Rutuja1423](https://github.com/Rutuja1423) |\n| **Contributor** | Rutuja Shinde | [@Rutuja1423](https://github.com/Rutuja1423) |\n\nThis notebook demonstrates the end-to-end machine learning pipeline for predicting loan defaults, including data cleaning, feature engineering, model training with hyperparameter tuning, model calibration, and SHAP explainability. It leverages the modular codebase built for this project."),
     
     nbf.v4.new_markdown_cell("## 1. Environment Setup & Configuration\nFirst, we load the centralized configurations and set up paths. The `config.py` module maintains all hyperparameter grids, file paths, and business cost definitions."),
     nbf.v4.new_code_cell("""import pandas as pd
@@ -96,7 +96,7 @@ out_dir = Path("notebooks")
 out_dir.mkdir(exist_ok=True)
 notebook_path = out_dir / 'Loan_Default_Prediction.ipynb'
 
-with open(notebook_path, 'w') as f:
+with open(notebook_path, 'w', encoding='utf-8') as f:
     nbf.write(nb, f)
 
 print(f"Successfully generated notebook at {notebook_path}")
